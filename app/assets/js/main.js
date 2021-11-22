@@ -25,8 +25,8 @@ const sessionData = ()=>{
 
 // VARIABLES //
 
-const http_data = "http://localhost/server/alcaravan/rest/";
-const http_file = "http://localhost/server/alcaravan/rest/";
+const http_data = "http://localhost/server/portrans_Api/rest/";
+const http_file = "http://localhost/server/portrans_Api/rest/";
 
 
 

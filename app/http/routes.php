@@ -1,12 +1,21 @@
 <?php
   Router::add("index",              "MainController",   "index");
-  Router::add("buscar",             "MainController",   "buscar");
-  Router::add("gestion",            "MainController",   "gestion");
-  Router::add("acuerdo",            "MainController",   "acuerdo");
-  Router::add("comunicacion",       "MainController",   "comunicacion");
-  Router::add("asesores",           "MainController",   "asesores");
-  Router::add("reportes",           "MainController",   "reportes");
-  Router::add("base",               "MainController",   "base");
+
+  Router::add("configuracion",      "MainController",   "configuracion");
+
+  Router::add("clientes",           "MainController",   "clientes");
+  Router::add("propietarios",       "MainController",   "propietarios");
+  Router::add("aliados",            "MainController",   "aliados");
+  Router::add("vehiculos",          "MainController",   "vehiculos");
+  Router::add("empleados",          "MainController",   "empleados");
+
+  Router::add("plantillas",         "MainController",   "plantillas");
+  Router::add("combustible",        "MainController",   "combustible");
+
+  Router::add("informacion",        "MainController",   "informacion");
+  Router::add("galeria",            "MainController",   "galeria");
+  Router::add("noticias",           "MainController",   "noticias");
+
   Router::add("perfil",             "MainController",   "perfil");
-  Router::add("alertas",            "MainController",   "alertas");
+
 ?>

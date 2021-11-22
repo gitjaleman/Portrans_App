@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>COBRANZA</title>
+	<title>PORTRANS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta content="Desarrollo para asociación alcaravan" name="description" />
 	<meta content="AGENCIA CRAFT" name="author" />
@@ -38,12 +38,6 @@
 					<div class="dropdown d-none d-lg-inline-block ms-1">
 						<button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
 							<i class="bx bx-fullscreen"></i>
-						</button>
-					</div>
-					<div class="dropdown d-inline-block">
-						<button type="button" class="btn header-item noti-icon waves-effect" onclick="pageDir('alertas')">
-							<i class="bx bx-bell bx-tada"></i>
-							<span class="display_none badge bg-danger rounded-pill">i</span>
 						</button>
 					</div>
 					<div class="dropdown d-inline-block">

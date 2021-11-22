@@ -24,7 +24,7 @@ session_destroy();
 				<div class="row justify-content-center">
 					<div class="col-md-8 col-lg-6 col-xl-5">
 						<div class="card overflow-hidden">
-							<div style="background-color: #9EBFFE;">
+							<div>
 								<div class="row">
 								
 									<div class="col-12 ">
@@ -32,15 +32,15 @@ session_destroy();
 									</div>
 								</div>
 							</div>
-							<div class="card-body pt-0 border-top">
+							<div class="card-body pt-1 border-top" >
 								<div class="p-2">
 									<form id="frm" class="form-horizontal">
 
 										<div class="mb-3">
 											<label class="form-label">Tipo Usuario</label>
 											<select class="form-control" id="usertype" required>
-												 <option value="1">ASESOR</option>
-												 <option value="0">COORDINADOR</option>
+												 <option value="1">USUARIO</option>
+												 <option value="0">ADMINISTRADOR</option>
 											</select>
 										</div>
 										<div class="mb-3">
@@ -87,7 +87,7 @@ session_destroy();
 			localStorage.clear();
 			login();
 		});
-		let http_data = "http://localhost/server/cobranza_api/api/";
+		let http_data = "http://localhost/server/portrans_Api/api/";
 
 		const login = () =>{
 			$('#frm').on('submit', function(e) {
