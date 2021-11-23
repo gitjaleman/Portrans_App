@@ -62,3 +62,12 @@
 .tbl_w_3{
   min-width: 200px;
 }
+
+.btn_head{
+  min-width: 70px !important;
+  font-size: 13px !important;
+  text-align: center !important;
+  margin-left: 10px !important;
+  border: 1px solid #303952 !important;
+  padding: 4px !important;
+}

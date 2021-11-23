@@ -7,7 +7,7 @@
 		public function clientes()             	{ Response::render("clientes");}
 		public function propietarios()          { Response::render("propietarios");}
 		public function aliados()             	{ Response::render("aliados");}
-		public function vehiculos()             { Response::render("clientes");}
+		public function vehiculos()             { Response::render("vehiculos");}
 		public function empleados()             { Response::render("empleados");}
 
 		public function plantillas()            { Response::render("plantillas");}
