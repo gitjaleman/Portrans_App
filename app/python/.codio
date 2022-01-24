@@ -1,0 +1,15 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+	    "Start server": "parts start apache2",
+        "Node version": "node --version"
+  },
+
+// Preview button configuration
+  "preview": {
+	    "Administrador URL": "http://{{domain}}:3000/admin/",
+        "Frontend URL": "http://{{domain}}:3000/"
+  }
+}
