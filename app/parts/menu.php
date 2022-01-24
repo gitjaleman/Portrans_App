@@ -1,7 +1,14 @@
 <?php
 
 
-$menu_configuracion = ["dir" => "configuracion", "text" => "CONFIGURACIÓN", "icon" => "bx-cog", "sub" => false];
+//$menu_configuracion = ["dir" => "configuracion", "text" => "CONFIGURACIÓN", "icon" => "bx-cog", "sub" => false];
+$menu_configuracion = ["dir" => false, "text" => "CONFIGURACIÓN", "icon" => "bx-cog", "sub" => [
+	["subdir" => "config_usuarios", "subtext" => "USUARIOS"],
+	["subdir" => "config_vehiculos", "subtext" => "VEHÍCULOS"],
+	["subdir" => "config_entidades", "subtext" => "ENTIDADES"],
+	["subdir" => "config_empleados", "subtext" => "EMPLEADOS"],
+	["subdir" => "config_ciudades", "subtext" => "CIUDADES"]
+]];
 $menu_registro = ["dir" => false, "text" => "REGISTRO", "icon" => "bx-pencil", "sub" => [
 	["subdir" => "clientes", "subtext" => "CLIENTES"],
 	["subdir" => "propietarios", "subtext" => "PROPIETARIOS"],

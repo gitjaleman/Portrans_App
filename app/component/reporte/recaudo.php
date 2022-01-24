@@ -1,1 +1,0 @@
-<h1>soy recaudo</h1>

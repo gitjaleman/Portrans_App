@@ -37,13 +37,6 @@ session_destroy();
 									<form id="frm" class="form-horizontal">
 
 										<div class="mb-3">
-											<label class="form-label">Tipo Usuario</label>
-											<select class="form-control" id="usertype" required>
-												 <option value="1">USUARIO</option>
-												 <option value="0">ADMINISTRADOR</option>
-											</select>
-										</div>
-										<div class="mb-3">
 											<label class="form-label">Nombre Usuario</label>
 											<input type="text" class="form-control" id="username" required>
 										</div>
@@ -56,7 +49,7 @@ session_destroy();
 												</button>
 											</div>
 										</div>
-										<div class="mt-5 d-grid">
+										<div class="mt-3 d-grid">
 											<button class="btn btn-lg btn-success waves-effect waves-light " type="submit">
 												<b>INGRESO</b>
 											</button>
