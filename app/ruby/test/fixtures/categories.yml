@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: one
+
+two:
+  name: two
+
+# No tiene asociado productos, caso contrario no puede eliminarse.
+three:
+  name: three
