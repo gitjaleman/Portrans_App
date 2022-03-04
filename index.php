@@ -56,6 +56,11 @@ session_destroy();
 										</div>
 
 									</form>
+									<?php 
+												$var = 'QUNUSVZF';
+										echo base64_decode($var);
+									
+									?>
 								</div>
 							</div>
 						</div>
@@ -73,6 +78,7 @@ session_destroy();
 		<script src="app/assets/libs/node-waves/waves.min.js"></script>
 		<script src="app/assets/libs/toastr/build/toastr.min.js"></script>
 		<script src="app/assets/js/app.js"></script>
+		<script src="app/config/connection.js"></script>
 		<script>
 
 		$(document).ready(function() {
@@ -80,7 +86,8 @@ session_destroy();
 			localStorage.clear();
 			login();
 		});
-		let http_data = "http://localhost/server/portrans_Api/api/";
+
+	
 
 		const login = () =>{
 			$('#frm').on('submit', function(e) {
@@ -124,27 +131,8 @@ session_destroy();
 			}
 		}
 
-		function error(data) {
-			toastr.options = {
-				"closeButton": false,
-				"debug": false,
-				"newestOnTop": false,
-				"progressBar": false,
-				"positionClass": "toast-top-right",
-				"preventDuplicates": false,
-				"onclick": null,
-				"showDuration": 300,
-				"hideDuration": 1000,
-				"timeOut": 5000,
-				"extendedTimeOut": 1000,
-				"showEasing": "swing",
-				"hideEasing": "linear",
-				"showMethod": "fadeIn",
-				"hideMethod": "fadeOut"
-			}
-			toastr["error"]("Los datos de acceso  no son correctos");
-			console.log(data);
-		}
+
 		</script>
 	</body>
 	</html>
+	hola pereita
