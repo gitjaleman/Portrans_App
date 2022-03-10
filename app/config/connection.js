@@ -1,5 +1,5 @@
-const dir_data_local = "http://localhost/server/cobranza_api/api/";
-const dir_file_local = "http://localhost/server/cobranza_api/file/";
+const dir_data_local = "http://localhost/server/portrans_api/api/";
+const dir_file_local = "http://localhost/server/portrans_api/file/";
 const dir_data_server = "https://gestioncobranza.com/api/api/";
 const dir_file_server = "https://gestioncobranza.com/api/file/";
 

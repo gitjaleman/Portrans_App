@@ -9,4 +9,3 @@ if($action=='ACTIVE'){
 }else{
   session_destroy();
 }
-

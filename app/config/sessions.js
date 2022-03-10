@@ -8,14 +8,14 @@ const SESSION_STATUS = () => {
 };
 
 const SESSION_ON = () => {
-  console.log('session active');
+  
 };
 
 const SESSION_OFF = () => {
   $.ajax({
     url: "../app/php/session.php?a=off",
   }).done(function (e) {
-    sessionStorage.removeItem('session')
+    sessionStorage.removeItem('session');
     localStorage.clear();
     window.location = "../";
   });

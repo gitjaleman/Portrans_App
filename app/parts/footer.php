@@ -22,7 +22,7 @@
     <script src="../app/assets/means/DataTables/datatables.min.js"></script>
     <script src="../app/assets/js/moment.min.js"></script>
     <script src="../app/assets/js/app.js"></script>
-    <script src="../app/config/session.js"></script>
+    <script src="../app/config/sessions.js"></script>
     <script src="../app/config/connection.js"></script>
     <script src="../app/config/tools.js"></script>
     <?php $action = new Action;  ?>
